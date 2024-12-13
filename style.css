@@ -140,11 +140,11 @@ body{
 }
 
 .project-img-landscape{
-    height: 300px;
+    height: 30%;
 }
 
 .project-img-portrait{
-    height: 30%;
+    height: 400px;
 }
 
 .project-name{
