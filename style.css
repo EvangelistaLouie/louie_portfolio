@@ -184,3 +184,117 @@ a{
 .contact-icons{
     height: 30%;
 }
+
+@media only screen and (max-width: 1080px){
+    .image-header{
+        height: 50vh;
+    }
+    
+    .welcoming-picture{
+        height: 650px;
+    }
+
+    .introduction-container{
+        height: 50vh;
+    
+        flex-direction: column;
+    }
+    
+    .avatar{
+        height: 500px;
+    }
+    
+    .introduction{
+        font-size: 50px;
+        text-align: center;
+    
+        margin-top: 50px;
+    }
+
+    .skills-list-container{
+        height: 100%;
+        
+        flex-direction: column;
+    }
+    
+    .skill-container{
+        width: 80%;
+
+        margin: 30px;
+    
+        background-color: white;
+        border-radius: 25px;
+    }
+    
+    .skill-header{
+        font-size: 50px;
+        margin: 30px;
+    }
+    
+    .skills{
+        font-size: 45px;
+    }
+    
+    .projects{
+        width: 85%;
+        height: 100%;
+        
+        flex-direction: column;
+
+        border-radius: 100px;
+        box-shadow: none;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .project-details{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .divider{
+        display: none;
+    }
+    
+    .project-img-landscape{
+        height: 400px;
+
+        margin-top: 50px;
+    }
+    
+    .project-img-portrait{
+        height: 450px;
+
+        margin-top: 50px;
+    }
+    
+    .project-name{
+        font-size: 50px;
+        margin: 20px 0px 25px 70px;
+    }
+    
+    .project-desc{
+        font-size: 40px;
+        margin: 0px 20px 25px 70px;
+    }
+    
+    .project-bullets{
+        font-size: 40px;
+        margin: 0px 0px 25px 100px;
+    }
+
+    .contact-footer{
+        height: 8vh;
+    }
+
+    a{
+        margin: 0 2%;
+    }
+
+    .contact-icons{
+        height: 40%;
+    }
+}
